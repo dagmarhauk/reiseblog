@@ -1,0 +1,55 @@
+.header {
+  position: absolute; 
+  /* evtl ändern position: absolute  */
+  top: 0px;
+  right: 0;
+  left: 0;
+  padding: 28px 120px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-green);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.logo-header {
+  height: 72px;
+  width: 72px;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+  list-style-type: none;
+  padding: 0;
+}
+.navigation a:link {
+  font-family: "Arima";
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 8px 8px;
+}
+.navigation a:visited {
+  color: var(--color-yellow);
+}
+.navigation li:nth-child(1) a:hover {
+  background-image: url(../images/hover-underline-highlights.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.navigation li:nth-child(2) a:hover {
+  background-image: url(../images/hover-underline-faq.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.navigation li:nth-child(3) a:hover {
+  background-image: url(../images/hover-underline-contact.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
