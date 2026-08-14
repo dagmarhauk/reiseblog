@@ -1,0 +1,65 @@
+:root {
+  /* Basis-Palette */
+  --color-yellow: rgba(241, 201, 83, 1);
+  --color-green: rgba(78, 164, 135, 1);
+  --color-light-green: rgba(78, 164, 135, 0.2);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-off-white: rgba(248, 245, 235, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-brown: rgba(84, 55, 13, 1);
+  --color-dark-grey: rgba(115, 115, 115, 1);
+
+  /* Semantisch, Hintergründe  */
+  --color-background-yellow: var(--color-yellow);
+  --color-background-green: var(--color-green);
+  --color-background: var(--color-white);
+  --color-card-background: var(--color-light-green);
+
+  /* Semantisch, Schriften */
+  --color-text-yellow: var(--color-yellow);
+  --color-text-green: var(--color-green);
+  --color-text-dark-grey: var(--color-dark-grey);
+  --color-text-black: var(--color-black);
+  --color-text-white: var(--color-white);
+  --color-text-off-white: var(--color-off-white);
+
+/* Schriftsgrößen, nach Figma-Ursprungswert desktop */
+--font-size-15: 0.94rem;
+--font-size-16: 1rem;
+--font-size-18: 1.125rem;
+--font-size-24: 1.5rem;
+--font-size-28: 1.75rem;
+--font-size-32: 2rem;
+--font-size-40: 2.5rem;
+--font-size-48: 3rem;
+--font-size-52: 3.25rem;
+--font-size-60: 3.75rem;
+
+/* Font Weights */
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700; 
+
+
+
+/* Spacing */
+
+/* Border-Radius */
+--border-radius-button: 40px;
+--border-radius-graph-video: 53px;
+--border-radius-cards: 30px;
+--border-radius-protipps: 10px;
+
+/* max-width  */
+
+/* Box-Shadow */
+
+/* Transition/Animation-Dauer */
+
+
+
+
+
+}
+
