@@ -1,0 +1,282 @@
+main {
+  padding: 100px 120px;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 100px;
+}
+
+.intro-left {
+  width: 75%;
+}
+
+.kicker {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-40);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-green);
+}
+
+h1 {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-64);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-yellow);
+  line-height: 1.2;
+}
+
+.intro-p-carousel {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-brown);
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.intro-p-video {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-brown);
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.intro-left ul {
+  list-style-type: none;
+  /* width: 100%; */
+  display: flex;
+  gap: 32px;
+}
+
+.intro-left li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.month-share {
+  width: 16px;
+  height: 18px;
+  display: block;
+}
+
+.eyeglasses {
+  width: 20px;
+  height: 14px;
+  display: block;
+}
+
+.visibility {
+  width: 20px;
+  height: 7px;
+  display: block;
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  width: 260px;
+  height: 390px;
+  background-color: var(--color-light-green);
+  border-radius: var(--border-radius-cards);
+  /* gap: 16px; */
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-brown);
+  line-height: 1.2;
+}
+
+.role {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-brown);
+  line-height: 1;
+}
+
+.author-text {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-brown);
+  line-height: 1.1;
+  margin: 0px;
+}
+
+.running-text {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-almost-black);
+  line-height: 1.1;
+}
+
+.running-text-space {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-almost-black);
+  line-height: 1.1;
+  padding-top: 100px;
+}
+
+.indented-list-block {
+  padding: 100px 100px 0px 100px;
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-almost-black);
+  line-height: 1.1;
+}
+
+.list-intro {
+  margin-bottom: 32px;
+}
+
+.indented-o-list {
+  padding-left: 24px;
+}
+
+.bullet-list-block {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-almost-black);
+  line-height: 1.1;
+  padding: 32px 0px 32px 0px;
+}
+
+.bullet-list {
+  padding-left: 48px;
+}
+
+.pro-tipps-section {
+  position: relative;
+  margin: 0px 24px 0px 24px;
+  padding-left: 52px;
+  padding-top: 172px;
+}
+
+.pro-tipps-badge {
+  position: absolute;
+  top: 124px;
+  left: -4px;
+  width: 190px;
+  height: 66px;
+  background-color: var(--color-green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  gap: 2px;
+  border-radius: var(--border-radius-protipps);
+  transform: rotate(-15deg);
+}
+
+.pro-tipps-badge-sign {
+  width: 42px;
+  height: 42px;
+  display: block;
+  transform: rotate(15deg);
+}
+
+.pro-tipps-text {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-yellow);
+}
+
+.pro-tipps-card {
+  background-color: var(--color-card-background);
+  border-radius: var(--border-radius-cards);
+  padding: 24px;
+}
+
+.pro-tipps-card ol {
+  padding-left: 24px;
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-almost-black);
+  line-height: 1.2;
+}
+
+.useful-link {
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-green);
+}
+
+.share-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 300px 0px 300px;
+}
+
+.share-section > p {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-brown);
+  line-height: 1.2;
+  text-align: center;
+  padding: 0px 16px;
+}
+.button-share {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  background-color: var(--color-green);
+  border-radius: var(--border-radius-button);
+  padding: 10px 24px;
+  margin-top: 56px;
+}
+
+.share-sign {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.button-text {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-yellow);
+  line-height: 1;
+}
+
+.arrow-share {
+  position: absolute;
+  top: 170px;
+  left: 320px;
+}
