@@ -8,6 +8,8 @@
   --color-black: rgba(0, 0, 0, 1);
   --color-brown: rgba(84, 55, 13, 1);
   --color-dark-grey: rgba(115, 115, 115, 1);
+  --color-almost-black: rgba(61, 61, 61, 1);
+
 
   /* Semantisch, Hintergründe  */
   --color-background-yellow: var(--color-yellow);
@@ -21,7 +23,9 @@
   --color-text-dark-grey: var(--color-dark-grey);
   --color-text-black: var(--color-black);
   --color-text-white: var(--color-white);
+  --color-text-brown: var(--color-brown);
   --color-text-off-white: var(--color-off-white);
+  --color-text-almost-black: var(--color-almost-black)
 
 /* Schriftsgrößen, nach Figma-Ursprungswert desktop */
 --font-size-15: 0.94rem;
@@ -34,6 +38,7 @@
 --font-size-48: 3rem;
 --font-size-52: 3.25rem;
 --font-size-60: 3.75rem;
+--font-size-64: 4rem;
 
 /* Font Weights */
 --font-weight-regular: 400;
