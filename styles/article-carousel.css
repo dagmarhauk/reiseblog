@@ -1,6 +1,54 @@
-.carousel-section {
-width: 600px;
-height: 400px;
-background-color: black;
+figcaption {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-brown);
+  text-align: center;
+  margin-bottom: 60px;
+}
 
-} 
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  /* margin-left: -120px;
+  margin-right: -120px; */
+}
+
+figure {
+  margin: 0px;
+}
+
+.carousel {
+  height: 440px;
+  display: flex;
+}
+
+.carousel-element {
+  width: 275px;
+  height: 80%;
+  /* box-shadow: 11px 10px 50px -9px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: -10px 11px 28px 0px rgba(0,0,0,0.1); */
+  transform: perspective(600px) rotateY(20deg) translateX(-20px);
+  transform-origin: 50% 50%;
+  transition: all 250ms ease-in-out;
+  margin-left: -120px;
+}
+
+.carousel-element:hover {
+  /* z-index: 2; */
+  margin-left: 20px;
+  margin-right: 40px;
+  transform: perspective(500px) rotateY(0deg) translateX(0px) scaleX(1.1)
+    scaleY(1.2);
+}
+
+.carousel-element:hover ~ .carousel-element {
+  transform: perspective(600px) rotateY(-20deg) translateX(20px);
+  margin-left: 0px;
+}
+
+.carousel-element:first-child:hover {
+  margin-left: -100px;
+}
