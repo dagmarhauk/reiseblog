@@ -2,27 +2,32 @@
   padding: 100px 0px;
 }
 
+.graph-single-section img {
+  max-width: 100%;
+  height: auto;
+}
 
 .graph-double-section {
   display: flex;
   justify-content: space-between;
-  padding: 100px 40px;
+  padding: 100px 100px;
+  /* gap: 40px; */
 }
 
 .graph-double {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 570px;
+  width: 500px;
 }
 
 .graph-double img {
-  width: 550px;
+  width: 100%;
   margin-top: auto;
 }
 
 .graph-double p {
-  width: 550px;
+  width: 100%;
 }
 
 .graph-caption {
