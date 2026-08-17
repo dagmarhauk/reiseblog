@@ -49,7 +49,6 @@ h1 {
 
 .intro-left ul {
   list-style-type: none;
-  /* width: 100%; */
   display: flex;
   gap: 32px;
 }
@@ -173,6 +172,12 @@ h1 {
 .bullet-list {
   padding-left: 48px;
 }
+.bullet-list li::marker {
+  content: "•  ";
+  font-weight: normal;
+  font-size: var(--font-size-24);
+}
+
 
 .pro-tipps-section {
   position: relative;
