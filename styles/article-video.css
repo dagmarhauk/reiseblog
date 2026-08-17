@@ -1,6 +1,6 @@
 .video-section {
-width: 600px;
-height: 400px;
-background-color: black;
-
+ max-width: 800px;
+  margin: 100px auto;
+  border-radius: var(--border-radius-graph-video);
+overflow: hidden;
 } 
