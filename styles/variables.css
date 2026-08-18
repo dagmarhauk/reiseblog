@@ -25,7 +25,7 @@
   --color-text-white: var(--color-white);
   --color-text-brown: var(--color-brown);
   --color-text-off-white: var(--color-off-white);
-  --color-text-almost-black: var(--color-almost-black)
+  --color-text-almost-black: var(--color-almost-black);
 
 /* Schriftsgrößen, nach Figma-Ursprungswert desktop */
 --font-size-15: 0.94rem;
