@@ -1,0 +1,55 @@
+.landing-section {
+}
+
+.landing-yellow {
+  height: calc(100vh - 132px);
+  height: calc(100dvh - 132px);
+  background-color: var(--color-background-yellow);
+}
+
+h2 {
+  font-family: "Arima", sans-serif;
+  font-size: var(--font-size-52);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-green);
+}
+
+.section-sign {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.h2-line {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
+}
+.highlights-section,
+.faq-section,
+.contact-section {
+  /* evtl. eine klasse für alle 3  */
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlights-section p,
+.contact-section p {
+  /* evtl. gleiche klasse für h, c */
+  font-family: "Palanquin", sans-serif;
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-brown);
+  text-align: center;
+  line-height: 1.1;
+  padding: 0px 110px 80px 110px;
+}
+
+.highlights-slider {
+}
+
+.slider-element {
+}
