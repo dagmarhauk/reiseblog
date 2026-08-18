@@ -46,6 +46,11 @@ figure {
 
 .carousel-element:hover ~ .carousel-element {
   transform: perspective(600px) rotateY(-20deg) translateX(20px);
+  /* margin-left: 0px; */
+}
+
+.carousel-element:hover + .carousel-element {
+  /* transform: perspective(600px) rotateY(-20deg) translateX(20px); */
   margin-left: 0px;
 }
 
