@@ -14,7 +14,7 @@
   /* Semantisch, Hintergründe  */
   --color-background-yellow: var(--color-yellow);
   --color-background-green: var(--color-green);
-  --color-background: var(--color-white);
+  --color-background-white: var(--color-white);
   --color-card-background: var(--color-light-green);
 
   /* Semantisch, Schriften */
@@ -55,6 +55,7 @@
 --border-radius-graph-video: 53px;
 --border-radius-cards: 30px;
 --border-radius-protipps: 10px;
+--border-radius-faq: 12px;
 
 /* max-width  */
 
