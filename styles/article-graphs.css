@@ -17,13 +17,14 @@
 .graph-double {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
   width: 500px;
 }
 
 .graph-double img {
   width: 100%;
   margin-top: auto;
+  margin-left: -8px;
 }
 
 .graph-double p {
@@ -36,5 +37,6 @@
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-brown);
   text-align: center;
+  line-height: 1;
   /* margin-bottom: 0px; */
 }
